@@ -61,9 +61,8 @@ body {
     font-weight: 700;
     letter-spacing: 35px;
 
-    animation: moveLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
+    animation: moveLeft 1s ease-out;
+    
 }
 
 
@@ -73,9 +72,8 @@ body {
     font-weight: 400;
     letter-spacing: 17.4px;
 
-    animation: moveRight;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
+    animation: moveRight 1s ease-out;
+   
 }
 
 
