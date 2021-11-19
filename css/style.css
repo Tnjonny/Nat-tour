@@ -36,19 +36,19 @@ body {
 
 
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
 
 
-.logo {
+.header__logo {
    height: 3.5rem;
 }
 
 
-.text-box {
+.header__text-box {
    position: absolute;
    top: 40%;
    left: 50%;
@@ -66,7 +66,7 @@ body {
 }
 
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;
     font-size: 6rem;
     font-weight: 700;
@@ -77,7 +77,7 @@ body {
 }
 
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 400;
@@ -162,7 +162,7 @@ body {
 }
 
 
- .btn-white {
+ .btn--white {
      background-color: #ffff;
      color: #777;
  }
@@ -182,7 +182,7 @@ body {
  }
 
 
- .btn-white::after {
+ .btn--white::after {
      background-color: #fff;
  }
 
@@ -193,7 +193,7 @@ body {
  }
 
 
- .btn-animated {
+ .btn--animated {
     animation: moveButton 0.5s ease-out 0.75s;
     animation-fill-mode: backwards;
  }
