@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Tnjonny/Nat-tour/issues"
   },
-  "homepage": "https://github.com/Tnjonny/Nat-tour#readme"
+  "homepage": "https://github.com/Tnjonny/Nat-tour#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
 }
