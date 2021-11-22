@@ -1,0 +1,19 @@
+{
+  "name": "nat-tour",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tnjonny/Nat-tour.git"
+  },
+  "author": "Jonathan Nkuli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tnjonny/Nat-tour/issues"
+  },
+  "homepage": "https://github.com/Tnjonny/Nat-tour#readme"
+}
