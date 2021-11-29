@@ -18,5 +18,9 @@
   "homepage": "https://github.com/Tnjonny/Nat-tour#readme",
   "devDependencies": {
     "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "live": "^0.1.25-beta.0",
+    "server": "^1.0.36"
   }
 }
