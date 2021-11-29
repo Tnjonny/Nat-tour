@@ -1,6 +1,8 @@
 $color-primary :#55c57a;
-$color-primary-light :#7ed56f;
-$color-primary-dark :#28b485;
+$color-primary-light:#7ed56f;
+$color-primary-dark:#28b485;
+$color-white: #ffff;
+$color-grey-dark: #777;
 
 
 *,
@@ -12,6 +14,7 @@ $color-primary-dark :#28b485;
 }
 
 
+
 html {
     font-size: 62.5%;
 }
@@ -21,7 +24,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 1.7;
-    color: #777;
+    color: $color-grey-dark;
     padding: 3rem;
     box-sizing: border-box;
 }
@@ -63,7 +66,7 @@ body {
 
 
 .heading-primary {
-   color: #ffff;
+   color: $color-white;
    text-transform: uppercase;
 
    backface-visibility: hidden;
@@ -168,8 +171,8 @@ body {
 
 
  .btn--white {
-     background-color: #ffff;
-     color: #777;
+     background-color: $color-white;
+     color: $color-grey-dark;
  }
 
 
@@ -188,7 +191,7 @@ body {
 
 
  .btn--white::after {
-     background-color: #fff;
+     background-color: $color-white;
  }
 
 
