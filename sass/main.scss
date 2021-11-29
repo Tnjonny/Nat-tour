@@ -3,6 +3,8 @@ $color-primary-light:#7ed56f;
 $color-primary-dark:#28b485;
 $color-white: #ffff;
 $color-grey-dark: #777;
+$olor-black: #0000;
+
 
 
 *,
@@ -40,28 +42,26 @@ body {
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     position: relative;
-}
 
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem; 
+    }
 
-
-.header__logo-box {
-  position: absolute;
-  top: 4rem;
-  left: 4rem;
-}
-
-
-.header__logo {
-   height: 3.5rem;
-}
-
-
-.header__text-box {
-   position: absolute;
-   top: 40%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   text-align: center;
+    
+    &__logo {
+        height: 3.5rem;
+ }
+ 
+    &__text-box {
+       position: absolute;
+       top: 40%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       text-align: center;
+ }
+ 
 }
 
 
@@ -71,29 +71,28 @@ body {
 
    backface-visibility: hidden;
    margin-bottom: 6rem;
-}
 
-
-.heading-primary--main {
+ &--main  {
     display: block;
     font-size: 6rem;
     font-weight: 700;
     letter-spacing: 3.5rem;
-
     animation: moveLeft 1s ease-out;
     
 }
 
-
-.heading-primary--sub {
+ &--sub {
     display: block;
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: 1.75rem;
-
     animation: moveRight 1s ease-out;
    
 }
+}
+
+
+
 
 
  @keyframes moveLeft {
@@ -145,8 +144,10 @@ body {
  }
 
 
- .btn:link,
- .btn:visited {
+
+ .btn {
+ &:link,
+ &:visited {
       text-transform: uppercase;
       text-decoration: none;
       padding: 1.5rem 4rem;
@@ -158,25 +159,37 @@ body {
  }
 
 
-.btn:hover {
-    transform: translateY(-3rem);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+ &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba($olor-black, 0.4);
+
+    
+ &::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
 }
 
 
-.btn:active {
-    transform: translateY(-1rem);
-    box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.4);
+&:active {
+    transform: translateY(-1px);
+    box-shadow: 0 .5rem 2rem rgba($color-black, 0.4);
 }
 
 
- .btn--white {
+ &--white {
      background-color: $color-white;
      color: $color-grey-dark;
+
+     &::after {
+        background-color: $color-white;
+    }
+   
  }
 
 
- .btn::after {
+ &::after {
      content: "";
      display: inline-block;
      height:100%;
@@ -190,18 +203,9 @@ body {
  }
 
 
- .btn--white::after {
-     background-color: $color-white;
- }
-
-
- .btn:hover::after {
-     transform: scaleX(1.4) scaleY(1.6);
-     opacity: 0;
- }
-
-
- .btn--animated {
+ &--animated {
     animation: moveButton 0.5s ease-out 0.75s;
     animation-fill-mode: backwards;
  }
+
+}
