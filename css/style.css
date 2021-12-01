@@ -76,11 +76,27 @@ body {
     transform: skewY(2deg);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
 .center {
   text-align: center; }
 
-.marginb {
+.big {
   margin-bottom: 8rem; }
+
+.medium {
+  margin-bottom: 4rem; }
+
+.small {
+  margin-bottom: 1.5rem; }
 
 body {
   font-family: "Roboto", sans-serif;
@@ -121,6 +137,16 @@ body {
   .heading-secondary:hover {
     transform: skewY(2deg);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
