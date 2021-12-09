@@ -6,7 +6,6 @@
    
 
     &__side {
-       
         color:#fff;
         font-size: 2rem;
     
@@ -24,8 +23,11 @@
         }
 
         &--back {
-            background-color: green;
             transform: rotateY(180deg);
+        }
+
+        &-1 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark); 
         }
     }
 
