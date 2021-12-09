@@ -8,8 +8,6 @@
     &__side {
         color:#fff;
         font-size: 2rem;
-    
-       
         height: 50rem;
         transition: all .8s ease;
         position: absolute;
@@ -17,6 +15,8 @@
         left: 0;
         width: 100%;
         backface-visibility: hidden;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgab($color-black .15);
 
         &--front {
             background-color: $color-white;
@@ -26,7 +26,7 @@
             transform: rotateY(180deg);
         }
 
-        &-1 {
+        &-one {
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark); 
         }
     }
