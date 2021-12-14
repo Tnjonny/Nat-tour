@@ -98,6 +98,9 @@ body {
 .small {
   margin-bottom: 1.5rem; }
 
+.top {
+  margin-top: 8rem; }
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -174,6 +177,12 @@ body {
   color: #777; }
   .btn--white::after {
     background-color: #ffff; }
+
+.btn--green {
+  background-color: #55c57a;
+  color: #ffff; }
+  .btn--green::after {
+    background-color: #55c57a; }
 
 .btn::after {
   content: "";
