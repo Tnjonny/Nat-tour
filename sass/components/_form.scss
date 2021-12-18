@@ -36,10 +36,12 @@
             margin: 2rem;
             margin-top: .7rem;
             display: block;
+            transition: all .3S;
         }
         
         &__input:placeholder-shown + &__label {
             opacity: 0;
             visibility: hidden;
+            transition: translateY(-4rem);
         }
 }

@@ -402,11 +402,13 @@ body {
   font-weight: 700;
   margin: 2rem;
   margin-top: .7rem;
-  display: block; }
+  display: block;
+  transition: all .3S; }
 
 .form__input:placeholder-shown + .form__label {
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+  transition: translateY(-4rem); }
 
 .story {
   width: 75%;
