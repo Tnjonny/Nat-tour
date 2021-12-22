@@ -522,6 +522,7 @@ body {
       margin-right: 1.5rem; }
   .footer__link:link, .footer__link:visited {
     color: #f7f7f7;
+    background-color: #333;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block; }
@@ -531,7 +532,7 @@ body {
   .footer__copyright {
     border-top: 1px solid #777;
     padding-top: 2rem;
-    width: 80;
+    width: auto;
     float: right; }
 
 .header {
