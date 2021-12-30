@@ -69,14 +69,11 @@
             color: $color-white;
             text-decoration: none;
             text-transform: uppercase;
-            background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-white 50%);
+            background-image: linear-gradient(120deg, transparent 0%, transparent 51%, $color-white 52%);
             background-size: 220%;
             transition: all .4s;
 
-            span {
-                margin-right: 1.5rem;
-                display: inline-block;
-            }
+         
         }
         
         &:hover,

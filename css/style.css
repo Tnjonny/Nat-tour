@@ -613,12 +613,9 @@ body {
   color: #ffff;
   text-decoration: none;
   text-transform: uppercase;
-  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #ffff 50%);
+  background-image: linear-gradient(120deg, transparent 0%, transparent 51%, #ffff 52%);
   background-size: 220%;
   transition: all .4s; }
-  .navigation__link:link span, .navigation__link:visited span {
-    margin-right: 1.5rem;
-    display: inline-block; }
 
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
