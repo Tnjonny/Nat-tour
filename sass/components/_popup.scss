@@ -20,6 +20,7 @@
       overflow: hidden;
       opacity: 0;
       transform: translate(-50%, -50%) scale(.5);
+      transition: all .3s;
   }
 
   &__left {
@@ -81,6 +82,8 @@
   }
 
 }
+
+
 
 
 
