@@ -571,7 +571,8 @@ body {
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
-  transition: all .3s; }
+  transition: all .3s;
+  backdrop-filter: blur(8px); }
   @media (max-width: 37.5em) {
     .popup {
       width: 100%;
